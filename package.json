@@ -8,11 +8,12 @@
   },
   "keywords": [
     "puppeteer",
+    "es6 modules",
     "ava",
     "boilerplate",
     "example"
   ],
-  "author": "Girma Nigusse",
+  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
   "devDependencies": {
     "ava": "^2.4.0",
