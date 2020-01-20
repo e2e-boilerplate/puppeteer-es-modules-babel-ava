@@ -10,7 +10,8 @@ test.before(async () => {
   browser = !isCI
     ? await puppeteer.launch({ headless: false })
     : await puppeteer.launch({
-        ignoreDefaultArgs: ["--disable-extensions"]
+        headless: true,
+        args: ["--no-sandbox", "--disable-setuid-sandbox"]
       });
   page = await browser.newPage();
   await page.goto("https://www.google.com", { waitUntil: "networkidle0" });
