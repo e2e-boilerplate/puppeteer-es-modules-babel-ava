@@ -9,7 +9,10 @@ const searchBox = ".gLFyf.gsfi";
 test.before(async () => {
   browser = !isCI
     ? await puppeteer.launch({ headless: false })
-    : await puppeteer.launch();
+    : await puppeteer.launch({
+        ignoreDefaultArgs: ["--disable-extensions"],
+        args: ["--no-sandbox", "--disable-setuid-sandbox"]
+      });
   page = await browser.newPage();
   await page.goto("https://www.google.com", { waitUntil: "networkidle0" });
 });
