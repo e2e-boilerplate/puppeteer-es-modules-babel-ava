@@ -7,7 +7,7 @@ let browser;
 const searchBox = ".gLFyf.gsfi";
 
 test.before(async () => {
-  browser = isCI
+  browser = (await isCI)
     ? puppeteer.launch({ headless: true })
     : puppeteer.launch({ headless: false });
   page = await browser.newPage();
