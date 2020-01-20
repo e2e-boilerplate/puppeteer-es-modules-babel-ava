@@ -7,10 +7,9 @@ let browser;
 const searchBox = ".gLFyf.gsfi";
 
 test.before(async () => {
-  console.log('--------------- isCI', isCI);
-  browser = (await isCI)
-    ? puppeteer.launch({ headless: true })
-    : puppeteer.launch({ headless: true });
+  browser = !(await isCI)
+    ? puppeteer.launch({ headless: false })
+    : puppeteer.launch();
   page = await browser.newPage();
   await page.goto("https://www.google.com", { waitUntil: "networkidle0" });
 });
