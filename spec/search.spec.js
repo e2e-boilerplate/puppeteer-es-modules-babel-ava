@@ -7,13 +7,12 @@ let browser;
 const searchBox = ".gLFyf.gsfi";
 
 test.before(async () => {
-  console.log('........ isCI?', !isCI);
-  browser = !isCI
-    ? await puppeteer.launch({ headless: true })
-    : await puppeteer.launch({
+  browser = isCI
+    ? await puppeteer.launch({
         headless: true,
         args: ["--no-sandbox", "--disable-setuid-sandbox"]
-      });
+      })
+    : await puppeteer.launch({ headless: false });
   page = await browser.newPage();
   await page.goto("https://www.google.com", { waitUntil: "networkidle0" });
 });
