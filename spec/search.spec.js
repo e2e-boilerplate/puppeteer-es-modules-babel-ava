@@ -7,6 +7,7 @@ let browser;
 const searchBox = ".gLFyf.gsfi";
 
 test.before(async () => {
+  console.log('........ isCI?', !isCI);
   browser = !isCI
     ? await puppeteer.launch({ headless: true })
     : await puppeteer.launch({
