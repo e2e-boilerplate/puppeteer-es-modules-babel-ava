@@ -1,12 +1,15 @@
 import test from "ava";
 import puppeteer from "puppeteer";
+import isCI from "is-ci";
 
 let page;
 let browser;
 const searchBox = ".gLFyf.gsfi";
 
 test.before(async () => {
-  browser = await puppeteer.launch({ headless: false });
+  browser = isCI
+    ? await puppeteer.launch({ headless: true })
+    : await puppeteer.launch({ headless: true });
   page = await browser.newPage();
   await page.goto("https://www.google.com", { waitUntil: "networkidle0" });
 });
