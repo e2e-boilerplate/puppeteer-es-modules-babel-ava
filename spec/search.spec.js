@@ -8,7 +8,7 @@ const searchBox = ".gLFyf.gsfi";
 
 test.before(async () => {
   browser = !isCI
-    ? await puppeteer.launch({ headless: false })
+    ? await puppeteer.launch({ headless: true })
     : await puppeteer.launch({
         headless: true,
         args: ["--no-sandbox", "--disable-setuid-sandbox"]
