@@ -21,4 +21,4 @@ jobs:
     - name: lint and e2e test
       run: |
         npm run lint
-        npm run test-ci
+        npm run test
