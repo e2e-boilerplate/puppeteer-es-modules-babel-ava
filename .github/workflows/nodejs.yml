@@ -1,4 +1,4 @@
-name: puppeteer-es6modules-ava
+name: puppeteer-es6-modules-ava
 
 on: 
   push:
