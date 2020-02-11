@@ -12,7 +12,7 @@ jobs:
 
     steps:
     - uses: actions/checkout@v1
-    - name: Use Node.js ${{ matrix.node-version }}
+    - name: Use Node.js 12.x
       uses: actions/setup-node@v1
       with:
         node-version: '12.x'
@@ -21,7 +21,9 @@ jobs:
         npm ci
       env:
         CI: true
-    - name: lint and e2e test
+    - name: LINT
       run: |
         npm run lint
+    - name: TEST
+      run: |
         npm run test
