@@ -1,17 +1,19 @@
 {
-  "name": "puppeteer-es6modules-ava",
+  "name": "puppeteer-es6-modules-ava",
   "version": "1.0.0",
-  "description": "Puppeteer end-to-end test automation boilerplate project. Using ES6 modules and AVA.",
+  "description": "Puppeteer end-to-end test automation boilerplate, using ES6 modules and AVA.",
   "scripts": {
-    "test": "ava",
-    "lint": "npx eslint --ext .js ./ --fix"
+    "lint": "npx eslint --ext .js ./ --fix",
+    "test": "ava"
   },
   "keywords": [
     "puppeteer",
-    "es6 modules",
+    "es6",
     "ava",
     "boilerplate",
-    "example"
+    "example",
+    "e2e",
+    "e2e test"
   ],
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
   "license": "MIT",
