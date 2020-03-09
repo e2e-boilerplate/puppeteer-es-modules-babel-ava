@@ -10,7 +10,7 @@ test.before(async () => {
     : await puppeteer.launch({ headless: false });
   page = await browser.newPage();
   await page
-    .goto("https://e2e-boilerplates.github.io/sandbox/", {
+    .goto("https://e2e-boilerplate.github.io/sandbox/", {
       waitUntil: "networkidle0"
     })
     .catch(() => {});
