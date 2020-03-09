@@ -2,8 +2,7 @@
   # Puppeteer Boilerplate
   Puppeteer end-to-end test automation boilerplate, using ES Modules and AVA.
   ## Getting Started
-  	 git clone git@github.com:e2e-boilerplate/puppeteer-es-modules-ava.git
-    	 cd puppeteer-es-modules-ava
-    	 npm install
-    	 npm run test
-    
+  	git clone git@github.com:e2e-boilerplate/puppeteer-es-modules-ava.git
+  	cd puppeteer-es-modules-ava
+  	npm install
+	npm run test
