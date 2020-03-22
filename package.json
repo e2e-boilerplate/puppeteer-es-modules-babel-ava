@@ -1,5 +1,5 @@
 {
-  "author": "",
+  "author": "Girma Nigusse <xgirma@gmail.com>",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/puppeteer-es-modules-ava/issues"
   },
@@ -7,11 +7,11 @@
     "ava": "2.4.0",
     "puppeteer": "2.1.1"
   },
-  "description": "Puppeteer end-to-end test automation boilerplate. using ES Modules and AVA.",
+  "description": "Puppeteer end-to-end test automation boilerplate. Using ES Modules and AVA.",
   "devDependencies": {
     "eslint": "6.8.0",
     "eslint-config-airbnb-base": "14.1.0",
-    "eslint-config-prettier": "6.10.1",
+    "eslint-config-prettier": "6.10.0",
     "eslint-plugin-import": "2.20.1",
     "eslint-plugin-prettier": "3.1.2",
     "husky": "4.2.3",
@@ -21,6 +21,11 @@
   "homepage": "https://github.com/e2e-boilerplate/puppeteer-es-modules-ava#readme",
   "keywords": [
     "ava",
+    "boilerplate",
+    "e2e",
+    "e2e tests",
+    "example",
+    "integration test",
     "puppeteer"
   ],
   "license": "MIT",
