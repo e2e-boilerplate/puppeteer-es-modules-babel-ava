@@ -1,5 +1,5 @@
 {
-  "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
+  "author": "",
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/puppeteer-es-modules-ava/issues"
   },
@@ -21,11 +21,6 @@
   "homepage": "https://github.com/e2e-boilerplate/puppeteer-es-modules-ava#readme",
   "keywords": [
     "ava",
-    "boilerplate",
-    "e2e",
-    "e2e tests",
-    "example",
-    "integration test",
     "puppeteer"
   ],
   "license": "MIT",
