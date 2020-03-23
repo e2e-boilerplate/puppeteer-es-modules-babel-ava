@@ -1,9 +1,5 @@
 {
-<<<<<<< HEAD
   "author": "Girma Nigusse <xgirma@gmail.com> (https://github.com/xgirma)",
-=======
-  "author": "Girma Nigusse <xgirma@gmail.com>",
->>>>>>> 080f40f547e107e2e28379ed105b273ee476dcc5
   "bugs": {
     "url": "https://github.com/e2e-boilerplate/puppeteer-es-modules-ava/issues"
   },
