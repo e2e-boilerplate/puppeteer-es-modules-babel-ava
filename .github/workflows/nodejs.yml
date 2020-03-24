@@ -1,4 +1,4 @@
-name: puppeteer-es-modules-ava
+name: puppeteer-es-modules-babel-ava
 'on':
   push: null
   schedule:
