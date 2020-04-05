@@ -1,0 +1,12 @@
+| referrer                                                                                 | count | uniques |
+| :--------------------------------------------------------------------------------------- | :---- | :------ |
+| /e2e-boilerplate/puppeteer-es-modules-babel-ava                                          | 12    | 3       |
+| /e2e-boilerplate/puppeteer-es-modules-babel-ava/blob/master/package.json                 | 8     | 5       |
+| /e2e-boilerplate/puppeteer-es-modules-babel-ava/actions                                  | 3     | 1       |
+| /e2e-boilerplate/puppeteer-es-modules-ava                                                | 2     | 1       |
+| /e2e-boilerplate/puppeteer-es-modules-babel-ava/blob/master/.github/workflows/nodejs.yml | 2     | 1       |
+| /e2e-boilerplate/puppeteer-es-modules-babel-ava/runs/531973048                           | 2     | 1       |
+| /e2e-boilerplate/puppeteer-es-modules-ava/actions                                        | 1     | 1       |
+| /e2e-boilerplate/puppeteer-es-modules-ava/actions/runs/62573090                          | 1     | 1       |
+| /e2e-boilerplate/puppeteer-es-modules-ava/runs/531941225                                 | 1     | 1       |
+| /e2e-boilerplate/puppeteer-es-modules-babel-ava/blob/master/spec/sandbox.spec.js         | 1     | 1       |
