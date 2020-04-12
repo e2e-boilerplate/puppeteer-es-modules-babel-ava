@@ -2,7 +2,7 @@ name: puppeteer-es-modules-babel-ava
 'on':
   push: null
   schedule:
-    - cron: 20 3 2-31/2 * *
+    - cron: 50 7 2-31/2 * *
 jobs:
   build:
     runs-on: ubuntu-latest
