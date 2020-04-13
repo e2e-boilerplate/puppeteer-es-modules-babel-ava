@@ -59,7 +59,7 @@
   },
   "scripts": {
     "lint": "npx eslint --ext .js ./ --fix",
-    "test": "ava"
+    "test": "npx ava --timeout=1m"
   },
   "version": "1.0.0"
 }
