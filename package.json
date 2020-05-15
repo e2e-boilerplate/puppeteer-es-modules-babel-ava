@@ -19,7 +19,6 @@
     "@babel/preset-env": "7.9.6",
     "@babel/register": "7.9.0",
     "@babel/runtime": "7.9.6",
-    "babel-jest": "26.0.1",
     "eslint": "7.0.0",
     "eslint-config-airbnb-base": "14.1.0",
     "eslint-config-prettier": "6.11.0",
@@ -42,6 +41,7 @@
     "boilerplate",
     "e2e",
     "e2e tests",
+    "es modules",
     "example",
     "integration test",
     "puppeteer"
