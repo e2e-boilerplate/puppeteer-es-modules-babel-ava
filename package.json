@@ -7,7 +7,7 @@
     "url": "https://github.com/e2e-boilerplate/puppeteer-es-modules-babel-ava/issues"
   },
   "dependencies": {
-    "ava": "3.13.0",
+    "ava": "3.14.0",
     "puppeteer": "5.5.0"
   },
   "description": "Puppeteer end-to-end test automation boilerplate. Using ES Modules, Babel and AVA.",
