@@ -12,7 +12,7 @@
   },
   "description": "Puppeteer end-to-end test automation boilerplate. Using ES Modules, Babel and AVA.",
   "devDependencies": {
-    "@ava/babel": "1.0.1",
+    "@ava/babel": "2.0.0",
     "@babel/cli": "7.19.3",
     "@babel/core": "7.19.3",
     "@babel/plugin-transform-runtime": "7.19.1",
